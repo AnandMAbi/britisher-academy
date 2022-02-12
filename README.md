@@ -1,2 +1,3 @@
 # britisher-academy
-Website for britisher academy
+
+A static website for britisher academy

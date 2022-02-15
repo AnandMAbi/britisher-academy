@@ -217,3 +217,25 @@ p {
 	margin-bottom: 1em;
 	font-weight: 400;
 }
+
+.about {
+	text-align :center;
+
+}
+.about object {
+width: 0%;
+
+}
+.about p {
+	text-align: justify;
+	padding: 0 1em;
+}
+@media (min-width:930px){
+.about object {
+	width:100%;
+	margin-top: 2em;
+}
+.about {
+	display:flex;
+}
+}

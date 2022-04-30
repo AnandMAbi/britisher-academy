@@ -1,0 +1,1 @@
+<iframe src="https://maps.google.com/maps?q=10%C2%B001'51.8%22N%2076%C2%B017'58.7%22E&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 470px; height: 510px;" />

@@ -1,3 +1,2 @@
-# britisher-academy
+Brythonic Academy Landing Page
 
-A static website for britisher academy

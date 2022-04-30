@@ -42,10 +42,21 @@ body {
 	top: 0;
 }
 
+a {
+	text-decoration: none;
+	}
+
 nav {
 	padding: 1em;
 	text-align: center;
 	margin: 0 2em;
+}
+
+/* align items vertically */
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* nav ul {
@@ -91,13 +102,14 @@ nav a {
 }
 
 .hero-img {
-	text-align: center;
 	margin: 3em auto 0;
-	width: 80%;
+	width: 100%;
 }
 
 .hero-img img {
-	width: 60%;
+	width: 100%;
+	
+	padding-left: -1em;
 }
 
 .hero h1 {
@@ -143,7 +155,7 @@ h4 {
 }
 
 .phone {
-	padding: 0 3em;
+	padding: 0 2.5em;
 }
 
 .phone img {
@@ -166,45 +178,38 @@ h4 {
 	width: 100%;
 }
 
-.page-end img.logo-contact {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+footer {
+	text-align: center;
+}
+
+.logo-contact {
+	width: 80%;
 }
 
 .social-media {
 	justify-content: center;
 	display: flex;
+	flex-direction: column;
 	padding: 0 auto;
 	text-align: right;
 	margin: 2em;
 }
 
-.social-media img {
-	float: left;
-}
-
-img.insta-svg {
-	padding-right: 1em;
-}
-
-img.twitter-svg {
-	padding-right: 0.9em;
-}
-
-img.fb-svg {
-	padding-right: 1em;
-	padding-left: 0.45em;
-}
-
-.page-end p.socials {
-	text-align: center;
+.social img {
 	padding: 1em;
 }
 
-p.copyright-footer {
-	margin: 3em 0;
+.social {
+	display: flex;
+	flex-direction:row ;
+}
+
+.socials {
+	text-align: center;
+}
+
+.copyright-footer {
+	margin-bottom: 2em;
 	text-align: center;
 	font-size: 0.7rem;
 }
@@ -297,6 +302,37 @@ p {
 }
 
 @media (min-width: 930px) {
+	.hero-section {
+		
+		align-items: center;
+		display: flex;
+		background: url(../images/hero-bg-elements.svg);
+		background-repeat: no-repeat;
+		background-position: 20%;
+	}
+
+
+	.hero-img img {
+		width: 60%;
+		float: right;
+		margin-left: 0;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.footer-main {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.logo-contact {
+		width: 30%;
+	}
+
 	.contact-us-btn {
 		display: block;
 	}
@@ -327,8 +363,6 @@ p {
 	}
 
 	.hero {
-		align-items: center;
-		display: flex;
 	}
 
 	.hero-text {

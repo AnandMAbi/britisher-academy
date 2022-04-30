@@ -488,6 +488,11 @@ p {
 	.page-end {
 		display: flex;
 	}
+
+	footer {
+		padding: 3em;
+	}
+
 }
 
 @media (min-width: 1440px) {
@@ -497,6 +502,10 @@ p {
 }
 
 @media (min-width: 1800px) {
+	footer {
+		padding: 0 15em;
+	}
+
 	nav {
 		margin: 1em 15em;
 	}

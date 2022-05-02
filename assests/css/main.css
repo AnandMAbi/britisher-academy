@@ -493,6 +493,10 @@ p {
 		padding: 3em;
 	}
 
+	.phno {
+		padding: 0;
+	}
+
 }
 
 @media (min-width: 1440px) {
